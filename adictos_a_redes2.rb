@@ -1,3 +1,4 @@
+minutos = [120, 50, 600, 30, 90, 10, 200, 0, 500]
 def scan_addicts2(array)
     resultado = []
     array.count.times do |i|
@@ -11,4 +12,4 @@ def scan_addicts2(array)
     end
     resultado
 end
-print scan_addicts2([120, 50, 600, 30, 90, 10, 200, 0, 500])
+print scan_addicts2(minutos)
